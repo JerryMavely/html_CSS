@@ -10,18 +10,38 @@
   
 }
 .thumbnail-row{
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  position: relative;
 }
 .thumbnail{
   width: 100%;
+  
 }
+
+.video-time{
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  font-family: Roboto,Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+}
+
 .channel-video-info{
   display: grid;
   grid-template-columns: 50px 1fr;
   /* vertical-align: top; */
 }
 .channel-profile{
-  width: 80%;
+  width: 36px;
   border-radius: 20px;
 }
 
@@ -30,7 +50,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 .author, 
 .stats{
