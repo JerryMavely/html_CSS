@@ -1,0 +1,3 @@
+.MyClass{
+  content:url("Icons/home.svg");
+}
